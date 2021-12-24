@@ -2,11 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import { ThemeProvider } from './context';
+import {BrowserRouter} from 'react-router-dom'
  
 ReactDOM.render(
-    <React.StrictMode>
-    <App />
-    </React.StrictMode>,
+    <div>
+    <ThemeProvider>
+    <BrowserRouter>
+   <App />
+   </BrowserRouter>
+    </ThemeProvider>
+    </div>,
     document.getElementById('root')
   );
 
