@@ -2,7 +2,7 @@
   "name": "reduxapp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://pavanmuttange.github.io/portfolio-website",
+  "homepage": "http://pavanmuttange.github.io/website-portfolio",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
